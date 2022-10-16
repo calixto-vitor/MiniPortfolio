@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mini Portfólio</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="my-infos">
+        <img src="./src/imagens/fotoperfil.png" alt="profile pic" />
+        <h1 class="name">Vitor Calixto</h1>
+        <h2 class="role">Desenvolvedor Front-End Júnior</h2>
+      </div>
+
+      <div class="content">
+        <ul class="tabs">
+          <li class="tab select" id="about-me">
+            <img src="./src/imagens/sobre.gif" alt="about me icon" />
+          </li>
+          <li class="tab" id="social">
+            <img src="./src/imagens/coracao.gif" alt="social icon" />
+          </li>
+        </ul>
+
+        <div class="info-tabs">
+          <div class="info select" id="info-about-me">
+            <h3 class="subtitle">Sobre</h3>
+
+            <div class="description">
+              <p>Oi! meu nome é Vitor Calixto, seja bem-vindo(a)!</p>
+
+              <p>
+                Tenho buscado uma recolocação no mercado e a minha tão sonhada
+                vaga na área de TI. Sempre tive contato com tecnologia desde
+                novo e facilidade em tudo sobre Informática, agora me esforço
+                para alcançar uma oportunidade que me permita um patamar melhor
+                para eu e minha esposa e fazer o que sempre gostei, buscar
+                soluções com a tecnologia para quem for. Atualmente estou
+                estudando
+                <span>HTML, CSS e JavaScript</span>. Meus principais hobbies são
+                jogar jogos Mobile, RPG, Pokémon (principalmente) e ver animes
+                (às vezes).
+              </p>
+            </div>
+          </div>
+
+          <div class="info" id="info-social">
+            <h3 class="subtitle">Minhas redes</h3>
+
+            <ul class="social">
+              <li>
+                <a href="" target="_blank" class="curriculum">Currículo</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/calixto-vitor/"
+                  target="_blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/calixto-vitor"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/js/index.js"></script>
+  </body>
+</html>
