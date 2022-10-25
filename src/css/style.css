@@ -20,6 +20,7 @@ body {
   border: 2px solid #fff;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 0 10px #f9f3f2, 0 0 40px 4px #f9f3f2, 0 0 80px 8px #c7b188;
 }
 
 .card .my-infos {
